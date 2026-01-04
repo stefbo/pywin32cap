@@ -1,0 +1,6 @@
+__pycache__/
+.venv/
+*.egg-info
+
+archive/
+examples/captured_frames/

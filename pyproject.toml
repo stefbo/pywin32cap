@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pywin32cap"
+version = "0.1.0"
+description = "A window capture utility using Windows API"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+    "pywin32",
+    "pillow",
+    "pygame"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/stefbo/pywin32cap"
